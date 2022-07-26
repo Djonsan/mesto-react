@@ -6,7 +6,6 @@ function AddPlacePopup({ isOpen, onClose, onAddCard, isDataLoad }) {
     const [placeName, setPlaceName] = React.useState('');
     const [placeLink, setPlaceLink] = React.useState('');
 
-
     function handleChangePlaceName(e) {
         setPlaceName(e.target.value);
     }
